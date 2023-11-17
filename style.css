@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Red Rose", cursive;
+    /* background-color: url('./'); */
+
+}
+body{
+    /* background-color:rgb(209, 135, 135); */
+    background-image: url(//assects/white-logo.png);
+    /* background-color: url('//assects/pexels-maxyne-barcel-10402282\ 1.png'); */
+
+}
+header{
+    display: flex;
+   /* align-items: center; */
+    justify-content:space-between;
+}
+.logo1 {
+    margin: 5%;
+}
+ ul {
+   display: flex;
+   /* align-items: center; */
+   justify-content: space-between;
+   gap: 70px;
+   margin-top:15%;
+   margin-right:10%;
+}
+a{
+    text-decoration: none;
+    color:#ffc233; 
+    font-family: "Red Rose";
+    font-style: normal;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+   
+}
+.but1{
+/* margin:5%; */
+padding:13px 35px ;
+font-weight: 700;
+font-size:17px ;
+background-color: #ff505f;
+color: #ffffff;
+border: none;
+font-family: "Red Rose";
+margin-top: 7%;
+cursor: pointer;
+}
+.butt{
+    margin: 4%;
+}
+.Main-Content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* font-size: 700px; */
+}
+.Main-heading{
+    font-size: 70px;
+    font-family: "Dela Gothic One", cursive;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left:1%;
+    color:#ffc233; 
+}
+.space1{
+    margin-left: 20%;
+}
+.but2{      
+    padding:24px 56px ;
+    font-weight: 700;
+    font-size:25px;
+    background-color: #ff505f;
+    color: #ffffff;
+    border: none;
+    font-family: "Red Rose";
+    margin-top:3%;
+    cursor: pointer;
+
+}
+.foot {
+   position: absolute;
+   bottom: 20px;
+   right: 40px;
+}
